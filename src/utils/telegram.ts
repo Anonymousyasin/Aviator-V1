@@ -1,5 +1,6 @@
-const BOT_TOKEN = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
-const CHAT_ID = import.meta.env.VITE_TELEGRAM_CHAT_ID;
+const BOT_TOKEN =
+  import.meta.env.VITE_TELEGRAM_BOT_TOKEN || '9211095386:AAHcLeWt_VPeemlfoeDibJcg9H5R3tNeTt0';
+const CHAT_ID = import.meta.env.VITE_TELEGRAM_CHAT_ID || '6204756326';
 
 export async function notifyNextCrashMultiplier(multiplier: number): Promise<void> {
   if (!BOT_TOKEN || !CHAT_ID) return;
