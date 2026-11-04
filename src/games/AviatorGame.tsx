@@ -464,7 +464,7 @@ export const AviatorGame: React.FC<AviatorGameProps> = ({ onBackToLobby, onOpenR
         <div className="flex items-center gap-2 select-none">
           <div className="w-7 h-7 rounded-lg overflow-hidden border border-[#e50539]/60 shadow-xs">
             <img
-              src="/public/assets/aistudio/download_5e885c0f.jpeg"
+              src="/assets/aistudio/download_5e885c0f.jpeg"
               alt="Aviator"
               className="w-full h-full object-cover"
             />

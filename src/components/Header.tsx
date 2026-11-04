@@ -24,7 +24,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center gap-2.5 shrink-0 select-none">
           <div className="w-8 h-8 rounded-lg overflow-hidden border border-[#e50539]/60 shadow-md shadow-red-500/20">
             <img
-              src="/public/assets/aistudio/download_5e885c0f.jpeg"
+              src="/assets/aistudio/download_5e885c0f.jpeg"
               alt="Aviator"
               className="w-full h-full object-cover"
             />
